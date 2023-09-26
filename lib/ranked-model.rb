@@ -7,7 +7,7 @@ module RankedModel
 
   # Signed INT in MySQL
   #
-  MAX_RANK_VALUE = 2147483647
+  MAX_RANK_VALUE = 2147000000 # Dan: Leaving 483,647 buffer for manual inserts
   MIN_RANK_VALUE = -2147483648
 
   def self.included base
